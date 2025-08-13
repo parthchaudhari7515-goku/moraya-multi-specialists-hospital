@@ -25,7 +25,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          Moraya Multi Specialists Hospital
+          Morya Multi Speciality  Hospital
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">

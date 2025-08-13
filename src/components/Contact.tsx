@@ -96,10 +96,22 @@ const Contact = () => {
                 <div className="bg-pink-100 p-3 rounded-full">
                   <Instagram className="h-6 w-6 text-pink-600" />
                 </div>
-                <div>
+                {/* <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Instagram</h3>
                   <p className="text-gray-600">@moraya_hospital_</p>
-                </div>
+                </div> */}
+                <a
+                  href="https://www.instagram.com/moraya_hospital_/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:bg-gray-100 p-2 rounded"
+                >
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Instagram</h3>
+                    <p className="text-gray-600">@moraya_hospital_</p>
+                  </div>
+                </a>
+
               </div>
             </div>
 
@@ -141,7 +153,7 @@ const Contact = () => {
               <div className="absolute inset-0 bg-blue-600/20 flex items-center justify-center">
                 <div className="bg-white/90 backdrop-blur-sm rounded-lg p-4">
                   <MapPin className="h-8 w-8 text-blue-600 mx-auto" />
-                  <p className="text-sm font-semibold text-gray-900 mt-2">Moraya Hospital</p>
+                  <p className="text-sm font-semibold text-gray-900 mt-2">Morya Multi Speciality  Hospital</p>
                 </div>
               </div>
             </div>

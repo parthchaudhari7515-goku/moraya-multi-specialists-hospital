@@ -38,27 +38,27 @@ const Staff = () => {
       members: [
         'Chief Laboratory Director'
       ]
-    },
-    {
-      title: 'Pathology Department',
-      count: 1,
-      icon: Microscope,
-      color: 'bg-pink-100 text-pink-600',
-      description: 'Specialized pathology services and diagnostic testing',
-      members: [
-        'Senior Pathologist'
-      ]
-    },
-    {
-      title: 'Pharmacy Manager',
-      count: 1,
-      icon: Pill,
-      color: 'bg-orange-100 text-orange-600',
-      description: 'Pharmaceutical services and medication management',
-      members: [
-        'Chief Pharmacy Manager'
-      ]
     }
+    // {
+    //   title: 'Pathology Department',
+    //   count: 1,
+    //   icon: Microscope,
+    //   color: 'bg-pink-100 text-pink-600',
+    //   description: 'Specialized pathology services and diagnostic testing',
+    //   members: [
+    //     'Senior Pathologist'
+    //   ]
+    // },
+    // {
+    //   title: 'Pharmacy Manager',
+    //   count: 1,
+    //   icon: Pill,
+    //   color: 'bg-orange-100 text-orange-600',
+    //   description: 'Pharmaceutical services and medication management',
+    //   members: [
+    //     'Chief Pharmacy Manager'
+    //   ]
+    // }
   ];
 
   return (
@@ -113,7 +113,7 @@ const Staff = () => {
           })}
         </div>
 
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Total Staff Members: 11
@@ -122,7 +122,7 @@ const Staff = () => {
               Our experienced team works around the clock to ensure the highest quality of healthcare services for all our patients.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

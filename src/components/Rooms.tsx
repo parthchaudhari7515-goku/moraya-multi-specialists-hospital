@@ -15,7 +15,7 @@ const Rooms = () => {
       name: 'Special Room A',
       description: 'Premium private rooms with enhanced amenities',
       // image: 'https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/2.jpg',
+      image: '/4.jpg',
       
       features: ['Private Bathroom', 'AC', 'TV', 'WiFi'],
       icon: Bed
@@ -32,7 +32,7 @@ const Rooms = () => {
       name: 'Special Room B',
       description: 'Comfortable private accommodation with modern facilities',
       // image: 'https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/4.jpg',
+      image: '/6.jpg',
       features: ['Private Space', 'Modern Amenities', 'Comfortable Bedding'],
       icon: Bed
     },
@@ -40,7 +40,7 @@ const Rooms = () => {
       name: 'General Ward',
       description: 'Well-maintained general admission ward',
       // image: 'https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/5.jpg',
+      image: '/7.jpg',
       features: ['Clean Environment', 'Nursing Care', 'Basic Amenities'],
       icon: Bed
     },
@@ -48,12 +48,11 @@ const Rooms = () => {
       name: 'Reception Area',
       description: 'Welcoming reception and waiting area',
       // image: 'https://images.pexels.com/photos/305568/pexels-photo-305568.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/6.jpg',
+      image: '/2.jpg',
       features: ['Information Desk', 'Comfortable Seating', 'Registration'],
       icon: Shield
-    }
+    },
   ];
-
   return (
     <section id="rooms" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
