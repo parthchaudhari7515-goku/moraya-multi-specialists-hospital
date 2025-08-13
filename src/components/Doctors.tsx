@@ -6,42 +6,42 @@ const Doctors = () => {
     {
       name: 'Dr. Rajesh Sharma',
       specialty: 'General Medicine',
-      experience: '15+ years',
+      // experience: '15+ years',
       qualification: 'MBBS, MD',
       image: 'https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
       name: 'Dr. Priya Patel',
       specialty: 'Cardiology',
-      experience: '12+ years',
+      // experience: '12+ years',
       qualification: 'MBBS, DM Cardiology',
       image: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
       name: 'Dr. Amit Kumar',
       specialty: 'Orthopedics',
-      experience: '18+ years',
+      // experience: '18+ years',
       qualification: 'MBBS, MS Orthopedics',
       image: 'https://images.pexels.com/photos/6749778/pexels-photo-6749778.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
       name: 'Dr. Sunita Verma',
       specialty: 'Pediatrics',
-      experience: '10+ years',
+      // experience: '10+ years',
       qualification: 'MBBS, MD Pediatrics',
       image: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
       name: 'Dr. Vikram Singh',
       specialty: 'Neurology',
-      experience: '14+ years',
+      // experience: '14+ years',
       qualification: 'MBBS, DM Neurology',
       image: 'https://images.pexels.com/photos/5452274/pexels-photo-5452274.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
       name: 'Dr. Kavita Joshi',
       specialty: 'Ophthalmology',
-      experience: '11+ years',
+      // experience: '11+ years',
       qualification: 'MBBS, MS Ophthalmology',
       image: 'https://images.pexels.com/photos/5452268/pexels-photo-5452268.jpeg?auto=compress&cs=tinysrgb&w=400'
     }

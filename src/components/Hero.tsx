@@ -15,7 +15,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hospital%20view.png"
+          src="/hospital-view.png"
           alt="Moraya Multi Specialists Hospital"
           className="w-full h-full object-cover"
         />

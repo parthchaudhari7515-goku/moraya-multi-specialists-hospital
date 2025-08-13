@@ -44,7 +44,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            {/* <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex items-start space-x-4">
                 <div className="bg-green-100 p-3 rounded-full">
                   <Phone className="h-6 w-6 text-green-600" />
@@ -57,7 +57,27 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
+            </div> */}
+
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div className="flex items-start space-x-4">
+                <div className="bg-green-100 p-3 rounded-full">
+                  <Phone className="h-6 w-6 text-green-600" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Contact Numbers</h3>
+                  <div className="space-y-1">
+                    <a href="tel:+919104670916" className="text-gray-600 hover:text-green-600">
+                      +91 9104670916
+                    </a>
+                    <a href="tel:+919104360916" className="text-gray-600 hover:text-green-600">
+                      +91 9104360916
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
+
 
             <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex items-start space-x-4">
@@ -114,7 +134,7 @@ const Contact = () => {
             </div>
             <div className="h-64 bg-gray-200 relative overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/1059116/pexels-photo-1059116.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/hospital-view.png"
                 alt="Hospital Location"
                 className="w-full h-full object-cover"
               />
