@@ -69,7 +69,7 @@ const Contact = () => {
                   <div className="space-y-1">
                     <a href="tel:+919104670916" className="text-gray-600 hover:text-green-600">
                       +91 9104670916
-                    </a>
+                    </a><br></br>
                     <a href="tel:+919104360916" className="text-gray-600 hover:text-green-600">
                       +91 9104360916
                     </a>
