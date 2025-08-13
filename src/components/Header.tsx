@@ -14,7 +14,7 @@ const Header = () => {
     { name: 'Rooms', href: '/', section: 'rooms' },
     { name: 'Staff', href: '/', section: 'staff' },
     { name: 'Contact', href: '/', section: 'contact' },
-    { name: 'QR Code', href: '/qr-code', section: null },
+    // { name: 'QR Code', href: '/qr-code', section: null },
   ];
 
   const scrollToSection = (sectionId: string) => {

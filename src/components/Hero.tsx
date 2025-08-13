@@ -57,12 +57,12 @@ const Hero = () => {
             <Phone className="inline h-5 w-5 mr-2" />
             Contact Us
           </button>
-          <Link
+          {/* <Link
             to="/qr-code"
             className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-8 py-3 rounded-lg font-semibold hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
           >
             QR Code
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
