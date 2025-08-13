@@ -150,10 +150,10 @@ const Doctors = () => {
                     <GraduationCap className="h-4 w-4 mr-2" />
                     <span className="text-sm">{doctor.qualification}</span>
                   </div>
-                  <div className="flex items-center text-gray-600">
+                  {/* <div className="flex items-center text-gray-600">
                     <Clock className="h-4 w-4 mr-2" />
                     <span className="text-sm">{doctor.experience}</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
