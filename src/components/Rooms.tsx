@@ -86,7 +86,7 @@ const Rooms = () => {
   {
     name: 'Medical',
     description: 'General-purpose medical services and facilities',
-    image: '/8.jpg',
+    image: '/8.jpeg',
     features: ['Examination Equipment', 'Pharmaceutical Access', 'Basic Treatment'],
     icon: Shield
   },

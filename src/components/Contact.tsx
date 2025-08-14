@@ -150,10 +150,18 @@ const Contact = () => {
                 alt="Hospital Location"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-blue-600/20 flex items-center justify-center">
+              {/* <div className="absolute inset-0 bg-blue-600/20 flex items-center justify-center">
                 <div className="bg-white/90 backdrop-blur-sm rounded-lg p-4">
                   <MapPin className="h-8 w-8 text-blue-600 mx-auto" />
                   <p className="text-sm font-semibold text-gray-900 mt-2">Morya Multi-Speciality  Hospital</p>
+                </div>
+              </div> */}
+              <div className="absolute inset-0 bg-transparent flex items-center justify-center">
+                <div className="bg-white/90 backdrop-blur-sm rounded-lg p-4">
+                  <MapPin className="h-8 w-8 text-blue-600 mx-auto" />
+                  <p className="text-sm font-semibold text-gray-900 mt-2">
+                    Morya Multi-Speciality Hospital
+                  </p>
                 </div>
               </div>
             </div>
