@@ -114,8 +114,8 @@ const QRCodePage = () => {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Morya Multi Speciality  Hospital',
-          text: 'Visit Morya Multi Speciality  Hospital website',
+          title: 'Morya Multi-Speciality  Hospital',
+          text: 'Visit Morya Multi-Speciality  Hospital website',
           url: currentUrl
         });
       } catch (error) {
@@ -149,7 +149,7 @@ const QRCodePage = () => {
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            QR Code – Morya Multi Speciality  Hospital
+            QR Code – Morya Multi-Speciality  Hospital
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Download QR codes in different sizes or share our hospital website link

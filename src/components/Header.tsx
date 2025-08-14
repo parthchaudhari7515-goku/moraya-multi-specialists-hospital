@@ -43,7 +43,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover:scale-105 transition-transform">
             <Heart className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">Morya Multi Speciality  Hospital</span>
+            <span className="text-xl font-bold text-gray-900">Morya Multi-Speciality  Hospital</span>
           </Link>
 
           {/* Desktop Navigation */}

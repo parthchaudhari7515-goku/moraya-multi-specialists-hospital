@@ -2,57 +2,117 @@ import React from 'react';
 import { Bed, Wifi, Tv, Coffee, Shield, Heart } from 'lucide-react';
 
 const Rooms = () => {
-  const rooms = [
-    {
-      name: 'ICU Room',
-      description: 'Advanced intensive care with 24/7 monitoring',
-      // image: 'https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/1.jpg',
-      features: ['24/7 Monitoring', 'Advanced Equipment', 'Specialized Staff'],
-      icon: Heart
-    },
-    {
-      name: 'Special Room A',
-      description: 'Premium private rooms with enhanced amenities',
-      // image: 'https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/4.jpg',
+  // const rooms = [
+  //   {
+  //     name: 'ICU Room',
+  //     description: 'Advanced intensive care with 24/7 monitoring',
+  //     // image: 'https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=600',
+  //     image: '/1.jpg',
+  //     features: ['24/7 Monitoring', 'Advanced Equipment', 'Specialized Staff'],
+  //     icon: Heart
+  //   },
+  //   {
+  //     name: 'Special Room A',
+  //     description: 'Premium private rooms with enhanced amenities',
+  //     // image: 'https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=600',
+  //     image: '/4.jpg',
       
-      features: ['Private Bathroom', 'AC', 'TV', 'WiFi'],
-      icon: Bed
-    },
-    {
-      name: 'ECG Room',
-      description: 'Specialized cardiac monitoring and testing facility',
-      // image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/3.jpg',
-      features: ['ECG Equipment', 'Cardiac Monitoring', 'Expert Technicians'],
-      icon: Heart
-    },
-    {
-      name: 'Special Room B',
-      description: 'Comfortable private accommodation with modern facilities',
-      // image: 'https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/6.jpg',
-      features: ['Private Space', 'Modern Amenities', 'Comfortable Bedding'],
-      icon: Bed
-    },
-    {
-      name: 'General Ward',
-      description: 'Well-maintained general admission ward',
-      // image: 'https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/7.jpg',
-      features: ['Clean Environment', 'Nursing Care', 'Basic Amenities'],
-      icon: Bed
-    },
-    {
-      name: 'Reception Area',
-      description: 'Welcoming reception and waiting area',
-      // image: 'https://images.pexels.com/photos/305568/pexels-photo-305568.jpeg?auto=compress&cs=tinysrgb&w=600',
-      image: '/2.jpg',
-      features: ['Information Desk', 'Comfortable Seating', 'Registration'],
-      icon: Shield
-    },
-  ];
+  //     features: ['Private Bathroom', 'AC', 'TV', 'WiFi'],
+  //     icon: Bed
+  //   },
+  //   {
+  //     name: 'ECG Room',
+  //     description: 'Specialized cardiac monitoring and testing facility',
+  //     // image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=600',
+  //     image: '/3.jpg',
+  //     features: ['ECG Equipment', 'Cardiac Monitoring', 'Expert Technicians'],
+  //     icon: Heart
+  //   },
+  //   {
+  //     name: 'Special Room B',
+  //     description: 'Comfortable private accommodation with modern facilities',
+  //     // image: 'https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=600',
+  //     image: '/6.jpg',
+  //     features: ['Private Space', 'Modern Amenities', 'Comfortable Bedding'],
+  //     icon: Bed
+  //   },
+  //   {
+  //     name: 'General Ward',
+  //     description: 'Well-maintained general admission ward',
+  //     // image: 'https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=600',
+  //     image: '/7.jpg',
+  //     features: ['Clean Environment', 'Nursing Care', 'Basic Amenities'],
+  //     icon: Bed
+  //   },
+  //   {
+  //     name: 'Reception Area',
+  //     description: 'Welcoming reception and waiting area',
+  //     // image: 'https://images.pexels.com/photos/305568/pexels-photo-305568.jpeg?auto=compress&cs=tinysrgb&w=600',
+  //     image: '/2.jpg',
+  //     features: ['Information Desk', 'Comfortable Seating', 'Registration'],
+  //     icon: Shield
+  //   },
+  //   {
+  //     name: 'Medical',
+  //     description: 'Welcoming reception and waiting area',
+  //     // image: 'https://images.pexels.com/photos/305568/pexels-photo-305568.jpeg?auto=compress&cs=tinysrgb&w=600',
+  //     image: '/8.jpg',
+  //     features: ['Information Desk', 'Comfortable Seating', 'Registration'],
+  //     icon: Shield
+  //   },
+  // ];
+  const rooms = [
+  {
+    name: 'ECG Room',
+    description: 'Specialized cardiac monitoring and testing facility',
+    image: '/3.jpg',
+    features: ['ECG Equipment', 'Cardiac Monitoring', 'Expert Technicians'],
+    icon: Heart
+  },
+  {
+    name: 'General Ward',
+    description: 'Well-maintained general admission ward',
+    image: '/7.jpg',
+    features: ['Clean Environment', 'Nursing Care', 'Basic Amenities'],
+    icon: Bed
+  },
+  {
+    name: 'ICU Room',
+    description: 'Advanced intensive care with 24/7 monitoring',
+    image: '/1.jpg',
+    features: ['24/7 Monitoring', 'Advanced Equipment', 'Specialized Staff'],
+    icon: Heart
+  },
+  {
+    name: 'Medical',
+    description: 'General-purpose medical services and facilities',
+    image: '/8.jpg',
+    features: ['Examination Equipment', 'Pharmaceutical Access', 'Basic Treatment'],
+    icon: Shield
+  },
+  {
+    name: 'Reception Area',
+    description: 'Welcoming reception and waiting area',
+    image: '/2.jpg',
+    features: ['Information Desk', 'Comfortable Seating', 'Registration'],
+    icon: Shield
+  },
+  {
+    name: 'Special Room A',
+    description: 'Premium private rooms with enhanced amenities',
+    image: '/4.jpg',
+    features: ['Private Bathroom', 'AC', 'TV', 'WiFi'],
+    icon: Bed
+  },
+  {
+    name: 'Special Room B',
+    description: 'Comfortable private accommodation with modern facilities',
+    image: '/6.jpg',
+    features: ['Private Space', 'Modern Amenities', 'Comfortable Bedding'],
+    icon: Bed
+  }
+];
+
   return (
     <section id="rooms" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
