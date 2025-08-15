@@ -59,14 +59,14 @@ const QRPreview = () => {
             Scan with your phone camera to visit our website
           </p>
 
-          {/* <Link
+          <Link
             to="/qr-code"
             className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl space-x-2"
           >
             <QrCode className="h-5 w-5" />
             <span>Open Full QR Tools</span>
             <ExternalLink className="h-4 w-4" />
-          </Link> */}
+          </Link>
         </div>
       </div>
     </section>
