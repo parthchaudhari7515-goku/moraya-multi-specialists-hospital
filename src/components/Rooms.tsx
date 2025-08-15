@@ -62,42 +62,21 @@ const Rooms = () => {
   //   },
   // ];
   const rooms = [
-  {
+    {
+      name: 'ICU Room',
+      description: 'Advanced intensive care with 24/7 monitoring',
+      image: '/icu-room.jpg',
+      features: ['24/7 Monitoring', 'Advanced Equipment', 'Specialized Staff'],
+      icon: Heart
+    },
+    {
     name: 'ECG Room',
     description: 'Specialized cardiac monitoring and testing facility',
     image: '/ecg-room.jpg',
     features: ['ECG Equipment', 'Cardiac Monitoring', 'Expert Technicians'],
     icon: Heart
   },
-  {
-    name: 'General Ward',
-    description: 'Well-maintained general admission ward',
-    image: '/general-ward.jpg',
-    features: ['Clean Environment', 'Nursing Care', 'Basic Amenities'],
-    icon: Bed
-  },
-  {
-    name: 'ICU Room',
-    description: 'Advanced intensive care with 24/7 monitoring',
-    image: '/icu-room.jpg',
-    features: ['24/7 Monitoring', 'Advanced Equipment', 'Specialized Staff'],
-    icon: Heart
-  },
-  {
-    name: 'Medical',
-    description: 'General-purpose medical services and facilities',
-    image: '/medical.jpeg',
-    features: ['Examination Equipment', 'Pharmaceutical Access', 'Basic Treatment'],
-    icon: Shield
-  },
-  {
-    name: 'Reception Area',
-    description: 'Welcoming reception and waiting area',
-    image: '/reception-area.jpg',
-    features: ['Information Desk', 'Comfortable Seating', 'Registration'],
-    icon: Shield
-  },
-  {
+    {
     name: 'Special Room A',
     description: 'Premium private rooms with enhanced amenities',
     image: '/special-room-a.jpg',
@@ -111,20 +90,41 @@ const Rooms = () => {
     features: ['Private Space', 'Modern Amenities', 'Comfortable Bedding'],
     icon: Bed
   },
-    {
-      name: 'Pathology',
-      description: 'Comprehensive diagnostic laboratory services with accurate and timely test results.',
-      image: '/pathology.jpg',
-      features: ['Blood Tests', 'Urine & Stool Analysis', 'Biopsy & Histopathology'],
-      icon: Microscope
-    },
-    {
-      name: 'X-ray',
-      description: 'Advanced digital radiography for clear and precise imaging results.',
-      image: '/x-ray.jpg',
-      features: ['Digital X-ray Imaging', 'Low Radiation Exposure', 'Fast Report Delivery'],
-      icon: Radiation
-    }
+  {
+    name: 'General Ward',
+    description: 'Well-maintained general admission ward',
+    image: '/general-ward.jpg',
+    features: ['Clean Environment', 'Nursing Care', 'Basic Amenities'],
+    icon: Bed
+  },
+  {
+    name: 'Reception Area',
+    description: 'Welcoming reception and waiting area',
+    image: '/reception-area.jpg',
+    features: ['Information Desk', 'Comfortable Seating', 'Registration'],
+    icon: Shield
+  },
+  {
+    name: 'Medical',
+    description: 'General-purpose medical services and facilities',
+    image: '/medical.jpeg',
+    features: ['Examination Equipment', 'Pharmaceutical Access', 'Basic Treatment'],
+    icon: Shield
+  },
+  {
+    name: 'Pathology',
+    description: 'Comprehensive diagnostic laboratory services with accurate and timely test results.',
+    image: '/pathology.jpg',
+    features: ['Blood Tests', 'Urine & Stool Analysis', 'Biopsy & Histopathology'],
+    icon: Microscope
+  },
+  {
+    name: 'X-ray',
+    description: 'Advanced digital radiography for clear and precise imaging results.',
+    image: '/x-ray.jpg',
+    features: ['Digital X-ray Imaging', 'Low Radiation Exposure', 'Fast Report Delivery'],
+    icon: Radiation
+  }
 ];
 
   return (
