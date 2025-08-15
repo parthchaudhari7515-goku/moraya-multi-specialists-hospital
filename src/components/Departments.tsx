@@ -6,7 +6,8 @@ import {
   Users, 
   Building, 
   Pill, 
-  Microscope 
+  Microscope,
+  Scan  
 } from 'lucide-react';
 
 const Departments = () => {
@@ -16,6 +17,12 @@ const Departments = () => {
       icon: Heart,
       description: 'Intensive care unit with advanced life support systems',
       color: 'bg-red-100 text-red-600'
+    },    
+    {
+      name: 'ECG Room',
+      icon: Activity,
+      description: 'Electrocardiogram testing and cardiac monitoring',
+      color: 'bg-green-100 text-green-600'
     },
     {
       name: 'Special Room (A)',
@@ -23,12 +30,7 @@ const Departments = () => {
       description: 'Premium private rooms with enhanced comfort and care',
       color: 'bg-blue-100 text-blue-600'
     },
-    {
-      name: 'ECG Room',
-      icon: Activity,
-      description: 'Electrocardiogram testing and cardiac monitoring',
-      color: 'bg-green-100 text-green-600'
-    },
+
     {
       name: 'Special Room (B)',
       icon: Bed,
@@ -58,7 +60,13 @@ const Departments = () => {
       icon: Microscope,
       description: 'Advanced diagnostic testing and pathology services',
       color: 'bg-pink-100 text-pink-600'
-    }
+    },
+    {
+      name: 'X-Ray Department',
+      icon: Scan,
+      description: 'Digital X-ray imaging for accurate diagnostics',
+      color: 'bg-yellow-100 text-yellow-600'
+    },
   ];
 
   return (

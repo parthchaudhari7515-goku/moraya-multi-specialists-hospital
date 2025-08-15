@@ -228,14 +228,14 @@ const Doctors = () => {
       qualification: 'B.A.M.S. (Pune)'
     },
     {
-      name: 'Dr. Dinesh Pawar',
-      specialty: 'General physician and surgeon',
-      qualification: 'B. H. M. S. MUHS (Pune)'
-    },
-    {
       name: 'Dr.Vishal Patil',
       specialty: 'Medicine',
       qualification: 'M.B.B S. M.D'
+    }
+    {
+      name: 'Dr. Dinesh Pawar',
+      specialty: 'General physician and surgeon',
+      qualification: 'B. H. M. S. MUHS (Pune)'
     }
   ];
 
