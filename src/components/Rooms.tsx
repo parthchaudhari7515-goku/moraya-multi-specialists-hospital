@@ -105,7 +105,7 @@ const Rooms = () => {
     icon: Shield
   },
   {
-    name: 'Medical',
+    name: 'Pharmacy',
     description: 'General-purpose medical services and facilities',
     image: '/medical.jpeg',
     features: ['Examination Equipment', 'Pharmaceutical Access', 'Basic Treatment'],
@@ -116,6 +116,13 @@ const Rooms = () => {
     description: 'Comprehensive diagnostic laboratory services with accurate and timely test results.',
     image: '/pathology.jpg',
     features: ['Blood Tests', 'Urine & Stool Analysis', 'Biopsy & Histopathology'],
+    icon: Microscope
+  },
+  {
+    name: 'Laboratory',
+    description: 'Fully equipped laboratory for accurate and timely diagnostic testing.',
+    image: '/lab.jpg',
+    features: ['Blood Tests', 'Urine Analysis', 'Biochemistry Reports'],
     icon: Microscope
   },
   {
