@@ -121,7 +121,7 @@ const Rooms = () => {
     {
       name: 'X-ray',
       description: 'Advanced digital radiography for clear and precise imaging results.',
-      image: '/xray.jpg',
+      image: '/x-ray.jpg',
       features: ['Digital X-ray Imaging', 'Low Radiation Exposure', 'Fast Report Delivery'],
       icon: Radiation
     }
