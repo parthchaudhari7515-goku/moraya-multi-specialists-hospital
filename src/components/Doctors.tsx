@@ -229,7 +229,7 @@ const Doctors = () => {
     },
     {
       name: 'Dr.Vishal Patil',
-      specialty: 'Medicine',
+      specialty: 'Medicine Mumbai',
       qualification: 'M.B.B S. M.D (Mumbai)'
     },
     {
